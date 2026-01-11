@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ProdutoApi.Controllers
 {
     [ApiController]
-    [Route([controller])]
+    [Route("[controller]")]
     public class ProdutoController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -40,7 +40,7 @@ namespace ProdutoApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Insert(Protudo produto)
+        public IActionResult Insert(Produto produto)
         {
             if (string.IsNullOrWhiteSpace(produto.Nome))
             {
@@ -56,7 +56,7 @@ namespace ProdutoApi.Controllers
         {
             var produtoArmazenado = _context.Produtos.Find(id);
             if(produtoArmazenado == null) return NotFound();
-            if(string.IsNullOrWhiteSpace(produto.Name)) 
+            if(string.IsNullOrWhiteSpace(produto.Nome)) 
                 return BadRequest("nome do produto não pode ser vazio");
             produtoArmazenado.Nome = produto.Nome;
             produtoArmazenado.Estoque = produto.Estoque;
