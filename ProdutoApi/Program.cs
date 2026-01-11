@@ -1,4 +1,4 @@
-using ApiProdutos.Context;
+using ProdutoApi.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +17,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configuration of the HTTP request pipeline.
+// Configuration the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
   app.UseSwagger();

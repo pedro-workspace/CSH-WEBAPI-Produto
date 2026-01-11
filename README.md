@@ -12,3 +12,7 @@ Swashbuckle.AspNetCore -->
 
 # Registro do serviço de banco de dados no Program.cs
 ## Pronto para migrations
+
+<!-- dotnet ef migrations add Migracao_1 
+        dotnet ef database update
+-->

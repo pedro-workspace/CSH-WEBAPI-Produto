@@ -1,4 +1,4 @@
-using ProdutosApi.Models;
+using ProdutoApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ProdutoApi.Context
