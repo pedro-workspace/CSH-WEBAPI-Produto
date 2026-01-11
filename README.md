@@ -7,3 +7,5 @@ dotnet-ef --version 10
 Swashbuckle.AspNetCore -->
 
 # API inicial para criação de um modelo de API MVC (Model, View, Controller)
+
+# Adicionando configurações de conexão de database e acesso aos arquivos de settings
