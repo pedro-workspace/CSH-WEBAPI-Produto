@@ -11,3 +11,4 @@ Swashbuckle.AspNetCore -->
 # Adição de configurações de conexão de database e acesso aos arquivos de settings
 
 # Registro do serviço de banco de dados no Program.cs
+## Pronto para migrations
