@@ -24,6 +24,15 @@ if (app.Environment.IsDevelopment())
   app.UseSwaggerUI();
 }
 
+if (builder.Environment.IsDevelopment())
+{
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
+    });
+}
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
