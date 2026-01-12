@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uUV+Fp1beok=",
+  "dgSpecHash": "e/esnwg6ijo=",
   "success": true,
-  "projectFilePath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/ProdutoApi/ProdutoApi.csproj",
+  "projectFilePath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/CSH-WEBAPI-Produto/ProdutoApi/ProdutoApi.csproj",
   "expectedPackageFiles": [
     "/home/pedro/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/pedro/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",

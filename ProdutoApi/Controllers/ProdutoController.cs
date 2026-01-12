@@ -60,7 +60,7 @@ namespace ProdutoApi.Controllers
                 return BadRequest("nome do produto não pode ser vazio");
             produtoArmazenado.Nome = produto.Nome;
             produtoArmazenado.Estoque = produto.Estoque;
-            produtoArmazenado.Price = produto.Prece;
+            produtoArmazenado.Price = produto.Price;
             _context.Produtos.Update(produtoArmazenado);
             _context.SaveChanges();
             return Ok(produtoArmazenado);

@@ -3440,11 +3440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/ProdutoApi/ProdutoApi.csproj",
+      "projectUniqueName": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/CSH-WEBAPI-Produto/ProdutoApi/ProdutoApi.csproj",
       "projectName": "ProdutoApi",
-      "projectPath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/ProdutoApi/ProdutoApi.csproj",
+      "projectPath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/CSH-WEBAPI-Produto/ProdutoApi/ProdutoApi.csproj",
       "packagesPath": "/home/pedro/.nuget/packages/",
-      "outputPath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/ProdutoApi/obj/",
+      "outputPath": "/home/pedro/Code/C#WEB_API_LEARNING_PROCESS/CSH-WEBAPI-Produto/ProdutoApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/pedro/.nuget/NuGet/NuGet.Config"
